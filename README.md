@@ -46,4 +46,4 @@ A core design priority of this macro is workflow continuity. Because standard ed
 In typesetting and publishing environments, a line can vary based on editor word-wrapping and geometry. This tool is purposefully engineered as a relative progress tracker. By stripping out non-text structural elements and code comments, the resulting percentage calculations provide a highly reliable, consistent metric for gauging pace while editing documents.
 
 ### Host Environment Context
-The script is optimized to run directly within a text editor's internal scripting engine (such as TeXstudio's QCodeEdit API) and utilizes globally exposed `editor` and `cursor` objects provided by the host application's runtime engine.
+The script is optimized to run directly within TeXstudio's QCodeEdit API, and utilizes globally exposed `editor` and `cursor` objects provided by the host application's runtime engine.
